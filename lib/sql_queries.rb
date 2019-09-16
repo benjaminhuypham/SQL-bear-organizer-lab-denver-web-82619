@@ -25,13 +25,13 @@ end
 
 def selects_most_prominent_color_and_returns_with_count
   "Write your SQL query here"
-  "SELECT color, COUNT(color) FROM bears GROUP BY color ORDER BY color DESC LIMIT 1;   
+  "SELECT color, COUNT(color) FROM bears GROUP BY color ORDER BY color DESC LIMIT 1";   
   
 end
 
 def counts_number_of_bears_with_goofy_temperaments
   "Write your SQL query here"
-  SELECT COUNT(temperament) from bears WHERE temperament = "goofy"; 
+  "SELECT COUNT(temperament) from bears WHERE temperament = "goofy"; 
 end
 
 def selects_bear_that_killed_Tim
