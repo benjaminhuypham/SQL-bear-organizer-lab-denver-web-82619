@@ -20,12 +20,12 @@ end
 
 def select_youngest_bear_and_returns_name_and_age
   "Write your SQL query here"
-  SELECT name, age FROM bears ORDER BY age LIMIT 1;
+  "SELECT name, age FROM bears ORDER BY age LIMIT 1";
 end
 
 def selects_most_prominent_color_and_returns_with_count
   "Write your SQL query here"
-  SELECT color, COUNT(color) FROM bears GROUP BY color ORDER BY color DESC LIMIT 1;   
+  "SELECT color, COUNT(color) FROM bears GROUP BY color ORDER BY color DESC LIMIT 1;   
   
 end
 
